@@ -44,7 +44,7 @@ fi
 echo -ne '[#################  ] (90%)\r'
 {
 cd /root/linux1
-unzip linux1.zip
+unzip linux.zip
 chmod 777 tloxd
 chmod 777 tlox-cli
 ./tloxd
