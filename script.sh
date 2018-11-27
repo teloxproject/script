@@ -56,7 +56,7 @@ echo -n -e "\e[31mEnter IP address : \e[0m\n"
 read IP
 echo -e "\e[31mEnter PRIVATE_KEY : \e[0m"
 read PRIVKEY
- cat << EOF > /root/.tlox/tlox.conf
+ cat << EOF > /root/.telox/telox.conf
 rpcuser=tlox1345
 rpcpassword=rpcpassword1245
 rpcallowip=127.0.0.1
