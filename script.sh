@@ -37,14 +37,14 @@ sudo apt-get --force-yes -y install unzip
 } &> /dev/null
 echo -ne '[###############    ] (80%)\r'
 {
-if ! [ -d /root/script/linux ]; then
-git clone https://github.com/teloxproject/linux
+if ! [ -d /root/script/linux1 ]; then
+git clone https://github.com/teloxproject/linux1
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd /root/linux
-unzip linux.zip
+cd /root/linux1
+unzip linux1.zip
 chmod 777 tloxd
 chmod 777 tlox-cli
 ./tloxd
