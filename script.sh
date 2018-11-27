@@ -45,9 +45,9 @@ echo -ne '[#################  ] (90%)\r'
 {
 cd /root/linux1
 unzip linux.zip
-chmod 777 tloxd
-chmod 777 tlox-cli
-./tloxd
+chmod 777 teloxd
+chmod 777 telox-cli
+./teloxd
 } &> /dev/null
 echo -ne '[###################] (100%)\n'
 IP=''
@@ -77,4 +77,4 @@ addnode=95.179.159.252
 addnode=209.250.243.100
 addnode=45.77.90.8
 EOF
-./tloxd
+./teloxd
