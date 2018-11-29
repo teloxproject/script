@@ -37,13 +37,13 @@ sudo apt-get --force-yes -y install unzip
 } &> /dev/null
 echo -ne '[###############    ] (80%)\r'
 {
-if ! [ -d /root/script/linux1 ]; then
-git clone https://github.com/teloxproject/linux1
+if ! [ -d /root/script/linux ]; then
+git clone https://github.com/teloxproject/linux
 fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd /root/linux1
+cd /root/linux
 unzip linux.zip
 chmod 777 teloxd
 chmod 777 telox-cli
